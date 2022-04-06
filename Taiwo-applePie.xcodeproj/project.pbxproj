@@ -1,0 +1,605 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		466EC6EC27FDDF7600EA294A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EC6EB27FDDF7600EA294A /* AppDelegate.swift */; };
+		466EC6EE27FDDF7600EA294A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EC6ED27FDDF7600EA294A /* SceneDelegate.swift */; };
+		466EC6F027FDDF7600EA294A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EC6EF27FDDF7600EA294A /* ViewController.swift */; };
+		466EC6F327FDDF7600EA294A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466EC6F127FDDF7600EA294A /* Main.storyboard */; };
+		466EC6F527FDDF7B00EA294A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 466EC6F427FDDF7B00EA294A /* Assets.xcassets */; };
+		466EC6F827FDDF7B00EA294A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 466EC6F627FDDF7B00EA294A /* LaunchScreen.storyboard */; };
+		466EC70327FDDF7B00EA294A /* Taiwo_applePieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EC70227FDDF7B00EA294A /* Taiwo_applePieTests.swift */; };
+		466EC70D27FDDF7B00EA294A /* Taiwo_applePieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EC70C27FDDF7B00EA294A /* Taiwo_applePieUITests.swift */; };
+		466EC70F27FDDF7B00EA294A /* Taiwo_applePieUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EC70E27FDDF7B00EA294A /* Taiwo_applePieUITestsLaunchTests.swift */; };
+		466EC71C27FDF4E700EA294A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466EC71B27FDF4E700EA294A /* Game.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		466EC6FF27FDDF7B00EA294A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466EC6E027FDDF7600EA294A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466EC6E727FDDF7600EA294A;
+			remoteInfo = "Taiwo-applePie";
+		};
+		466EC70927FDDF7B00EA294A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 466EC6E027FDDF7600EA294A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 466EC6E727FDDF7600EA294A;
+			remoteInfo = "Taiwo-applePie";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		466EC6E827FDDF7600EA294A /* Taiwo-applePie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taiwo-applePie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466EC6EB27FDDF7600EA294A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		466EC6ED27FDDF7600EA294A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		466EC6EF27FDDF7600EA294A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		466EC6F227FDDF7600EA294A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		466EC6F427FDDF7B00EA294A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		466EC6F727FDDF7B00EA294A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		466EC6F927FDDF7B00EA294A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		466EC6FE27FDDF7B00EA294A /* Taiwo-applePieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taiwo-applePieTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466EC70227FDDF7B00EA294A /* Taiwo_applePieTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwo_applePieTests.swift; sourceTree = "<group>"; };
+		466EC70827FDDF7B00EA294A /* Taiwo-applePieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taiwo-applePieUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		466EC70C27FDDF7B00EA294A /* Taiwo_applePieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwo_applePieUITests.swift; sourceTree = "<group>"; };
+		466EC70E27FDDF7B00EA294A /* Taiwo_applePieUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taiwo_applePieUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		466EC71B27FDF4E700EA294A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		466EC6E527FDDF7600EA294A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466EC6FB27FDDF7B00EA294A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466EC70527FDDF7B00EA294A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		466EC6DF27FDDF7600EA294A = {
+			isa = PBXGroup;
+			children = (
+				466EC6EA27FDDF7600EA294A /* Taiwo-applePie */,
+				466EC70127FDDF7B00EA294A /* Taiwo-applePieTests */,
+				466EC70B27FDDF7B00EA294A /* Taiwo-applePieUITests */,
+				466EC6E927FDDF7600EA294A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		466EC6E927FDDF7600EA294A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				466EC6E827FDDF7600EA294A /* Taiwo-applePie.app */,
+				466EC6FE27FDDF7B00EA294A /* Taiwo-applePieTests.xctest */,
+				466EC70827FDDF7B00EA294A /* Taiwo-applePieUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		466EC6EA27FDDF7600EA294A /* Taiwo-applePie */ = {
+			isa = PBXGroup;
+			children = (
+				466EC6EB27FDDF7600EA294A /* AppDelegate.swift */,
+				466EC6ED27FDDF7600EA294A /* SceneDelegate.swift */,
+				466EC6EF27FDDF7600EA294A /* ViewController.swift */,
+				466EC6F127FDDF7600EA294A /* Main.storyboard */,
+				466EC71B27FDF4E700EA294A /* Game.swift */,
+				466EC6F427FDDF7B00EA294A /* Assets.xcassets */,
+				466EC6F627FDDF7B00EA294A /* LaunchScreen.storyboard */,
+				466EC6F927FDDF7B00EA294A /* Info.plist */,
+			);
+			path = "Taiwo-applePie";
+			sourceTree = "<group>";
+		};
+		466EC70127FDDF7B00EA294A /* Taiwo-applePieTests */ = {
+			isa = PBXGroup;
+			children = (
+				466EC70227FDDF7B00EA294A /* Taiwo_applePieTests.swift */,
+			);
+			path = "Taiwo-applePieTests";
+			sourceTree = "<group>";
+		};
+		466EC70B27FDDF7B00EA294A /* Taiwo-applePieUITests */ = {
+			isa = PBXGroup;
+			children = (
+				466EC70C27FDDF7B00EA294A /* Taiwo_applePieUITests.swift */,
+				466EC70E27FDDF7B00EA294A /* Taiwo_applePieUITestsLaunchTests.swift */,
+			);
+			path = "Taiwo-applePieUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		466EC6E727FDDF7600EA294A /* Taiwo-applePie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466EC71227FDDF7B00EA294A /* Build configuration list for PBXNativeTarget "Taiwo-applePie" */;
+			buildPhases = (
+				466EC6E427FDDF7600EA294A /* Sources */,
+				466EC6E527FDDF7600EA294A /* Frameworks */,
+				466EC6E627FDDF7600EA294A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Taiwo-applePie";
+			productName = "Taiwo-applePie";
+			productReference = 466EC6E827FDDF7600EA294A /* Taiwo-applePie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		466EC6FD27FDDF7B00EA294A /* Taiwo-applePieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466EC71527FDDF7B00EA294A /* Build configuration list for PBXNativeTarget "Taiwo-applePieTests" */;
+			buildPhases = (
+				466EC6FA27FDDF7B00EA294A /* Sources */,
+				466EC6FB27FDDF7B00EA294A /* Frameworks */,
+				466EC6FC27FDDF7B00EA294A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466EC70027FDDF7B00EA294A /* PBXTargetDependency */,
+			);
+			name = "Taiwo-applePieTests";
+			productName = "Taiwo-applePieTests";
+			productReference = 466EC6FE27FDDF7B00EA294A /* Taiwo-applePieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		466EC70727FDDF7B00EA294A /* Taiwo-applePieUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 466EC71827FDDF7B00EA294A /* Build configuration list for PBXNativeTarget "Taiwo-applePieUITests" */;
+			buildPhases = (
+				466EC70427FDDF7B00EA294A /* Sources */,
+				466EC70527FDDF7B00EA294A /* Frameworks */,
+				466EC70627FDDF7B00EA294A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				466EC70A27FDDF7B00EA294A /* PBXTargetDependency */,
+			);
+			name = "Taiwo-applePieUITests";
+			productName = "Taiwo-applePieUITests";
+			productReference = 466EC70827FDDF7B00EA294A /* Taiwo-applePieUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		466EC6E027FDDF7600EA294A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					466EC6E727FDDF7600EA294A = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					466EC6FD27FDDF7B00EA294A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 466EC6E727FDDF7600EA294A;
+					};
+					466EC70727FDDF7B00EA294A = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 466EC6E727FDDF7600EA294A;
+					};
+				};
+			};
+			buildConfigurationList = 466EC6E327FDDF7600EA294A /* Build configuration list for PBXProject "Taiwo-applePie" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 466EC6DF27FDDF7600EA294A;
+			productRefGroup = 466EC6E927FDDF7600EA294A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				466EC6E727FDDF7600EA294A /* Taiwo-applePie */,
+				466EC6FD27FDDF7B00EA294A /* Taiwo-applePieTests */,
+				466EC70727FDDF7B00EA294A /* Taiwo-applePieUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		466EC6E627FDDF7600EA294A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466EC6F827FDDF7B00EA294A /* LaunchScreen.storyboard in Resources */,
+				466EC6F527FDDF7B00EA294A /* Assets.xcassets in Resources */,
+				466EC6F327FDDF7600EA294A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466EC6FC27FDDF7B00EA294A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466EC70627FDDF7B00EA294A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		466EC6E427FDDF7600EA294A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466EC6F027FDDF7600EA294A /* ViewController.swift in Sources */,
+				466EC6EC27FDDF7600EA294A /* AppDelegate.swift in Sources */,
+				466EC6EE27FDDF7600EA294A /* SceneDelegate.swift in Sources */,
+				466EC71C27FDF4E700EA294A /* Game.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466EC6FA27FDDF7B00EA294A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466EC70327FDDF7B00EA294A /* Taiwo_applePieTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		466EC70427FDDF7B00EA294A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				466EC70D27FDDF7B00EA294A /* Taiwo_applePieUITests.swift in Sources */,
+				466EC70F27FDDF7B00EA294A /* Taiwo_applePieUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		466EC70027FDDF7B00EA294A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466EC6E727FDDF7600EA294A /* Taiwo-applePie */;
+			targetProxy = 466EC6FF27FDDF7B00EA294A /* PBXContainerItemProxy */;
+		};
+		466EC70A27FDDF7B00EA294A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 466EC6E727FDDF7600EA294A /* Taiwo-applePie */;
+			targetProxy = 466EC70927FDDF7B00EA294A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		466EC6F127FDDF7600EA294A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466EC6F227FDDF7600EA294A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		466EC6F627FDDF7B00EA294A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				466EC6F727FDDF7B00EA294A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		466EC71027FDDF7B00EA294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		466EC71127FDDF7B00EA294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		466EC71327FDDF7B00EA294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taiwo-applePie/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "taiwo.Taiwo-applePie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		466EC71427FDDF7B00EA294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Taiwo-applePie/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "taiwo.Taiwo-applePie";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		466EC71627FDDF7B00EA294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "taiwo.Taiwo-applePieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwo-applePie.app/Taiwo-applePie";
+			};
+			name = Debug;
+		};
+		466EC71727FDDF7B00EA294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "taiwo.Taiwo-applePieTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Taiwo-applePie.app/Taiwo-applePie";
+			};
+			name = Release;
+		};
+		466EC71927FDDF7B00EA294A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "taiwo.Taiwo-applePieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taiwo-applePie";
+			};
+			name = Debug;
+		};
+		466EC71A27FDDF7B00EA294A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "taiwo.Taiwo-applePieUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Taiwo-applePie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		466EC6E327FDDF7600EA294A /* Build configuration list for PBXProject "Taiwo-applePie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466EC71027FDDF7B00EA294A /* Debug */,
+				466EC71127FDDF7B00EA294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466EC71227FDDF7B00EA294A /* Build configuration list for PBXNativeTarget "Taiwo-applePie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466EC71327FDDF7B00EA294A /* Debug */,
+				466EC71427FDDF7B00EA294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466EC71527FDDF7B00EA294A /* Build configuration list for PBXNativeTarget "Taiwo-applePieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466EC71627FDDF7B00EA294A /* Debug */,
+				466EC71727FDDF7B00EA294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		466EC71827FDDF7B00EA294A /* Build configuration list for PBXNativeTarget "Taiwo-applePieUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				466EC71927FDDF7B00EA294A /* Debug */,
+				466EC71A27FDDF7B00EA294A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 466EC6E027FDDF7600EA294A /* Project object */;
+}
